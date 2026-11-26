@@ -1,4 +1,11 @@
 {
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run",
+    "test:sauce": "cypress run --spec cypress/e2e/projetoFinal/saucedemoFluxo.cy.js",
+    "test:orange": "cypress run --spec cypress/e2e/projetoFinal/orangeRH.cy.js",
+    "test:automation": "cypress run --spec cypress/e2e/projetoFinal/automationExercise.cy.js"
+  },
   "devDependencies": {
     "cypress": "^16.2.0"
   }
